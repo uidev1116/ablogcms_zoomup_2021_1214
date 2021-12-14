@@ -499,6 +499,7 @@ twitterUrl: 'https://twitter.com/poorman_ui'
 
 </div>
 
+
 ---
 eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
 eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
