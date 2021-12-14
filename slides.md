@@ -1,34 +1,23 @@
 ---
-# try also 'default' to start simple
 theme: penguin
-# random image from a curated Unsplash collection by Anthony
-# like them? see https://unsplash.com/collections/94734566/slidev
 background: https://source.unsplash.com/collection/94734566/1920x1080
-
-# https://sli.dev/custom/highlighters.html
 highlighter: prism
-# show line numbers in code blocks
 lineNumbers: false
-# some information about the slides, markdown enabled
 info: |
   ## Slidev Starter Template
   Presentation slides for developers.
 
   Learn more at [Sli.dev](https://sli.dev)
-# persist drawings in exports and build
 drawings:
   persist: false
-
-eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
-eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+eventLogo: >-
+  https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png
+eventUrl: https://ablogcms-zoomup.doorkeeper.jp/events/129702
 twitter: '@poorman_ui'
-twitterUrl: 'https://twitter.com/poorman_ui'
-
-
-# first page
+twitterUrl: https://twitter.com/poorman_ui
 layout: intro
+title: ふむふむと聞くだけで明日から使える！ a-blog cmsの小技集
 ---
-
 
 # ふむふむと聞くだけで明日から使える！ a-blog cmsの小技集
 
@@ -41,6 +30,10 @@ The last comment block of each slide will be treated as slide notes. It will be 
 ---
 layout: presenter
 presenterImage: '/profile.jpg'
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 
 # とりあえず自己紹介
@@ -54,15 +47,26 @@ presenterImage: '/profile.jpg'
 ---
 layout: text-image
 media: '/undraw_schedule_re_2vro.svg'
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 
 # お品書き
 
 - 自己紹介
-- a-blog cms の小技を1つ1分位のテンポで紹介
+- a-blog cms の小技を1つ1分以内くらいのテンポで紹介
+  - 自分で考えた編
+  - slackで募集した編
+- 最後に
 
 ---
 layout: text-window
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 # サイトのロゴマークをトップページだけh1タグで表示する
 
@@ -88,6 +92,10 @@ Webサイトのロゴマークをトップページだけh1タグで表示して
 ---
 layout: text-image
 media: '/server-env-checklist.png'
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 # サイト公開前にはサーバー環境情報を確認
 
@@ -99,6 +107,10 @@ media: '/server-env-checklist.png'
 
 ---
 layout: new-section
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 
 # モジュールIDや、コンフィグセット、ルールはインポート・エクスポートできます😚
@@ -107,6 +119,10 @@ layout: new-section
 
 ---
 layout: text-window
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 
 # メディアのカスタムフィールドでwidthとheightを設定する
@@ -128,6 +144,10 @@ layout: text-window
 ```
 ---
 layout: new-section
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 
 # 管理ボックスはカスタマイズできます☺️
@@ -138,6 +158,10 @@ layout: new-section
 
 ---
 layout: new-section
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 # エントリーコードが空の場合はエントリーのタイトルをタイトルタグに出力しない
 
@@ -159,6 +183,10 @@ layout: new-section
 
 ---
 layout: new-section
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 
 # PDFのサムネイル画像に任意のページを選択する
@@ -178,6 +206,11 @@ layout: new-section
 </div>
 
 
+---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 
 # Entry_Summary系のモジュールでecdを表示する
@@ -213,6 +246,11 @@ layout: new-section
 </div>
 
 ---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
+---
 
 # ページャーの総エントリー数が色々便利な件 🥳
 
@@ -228,6 +266,11 @@ Entry_Summary や Entry_Body などのページャーが使用できるモジュ
 
 ページャーという機能名からは想像がつきにくい使い方ができます 😇
 
+---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
 ---
 
 # 管理画面ではSelect2というJavaScriptが使用できる
@@ -259,23 +302,23 @@ Entry_Summary や Entry_Body などのページャーが使用できるモジュ
 
 ---
 
+<style>
 
+  h1 {
+    font-size: 28px!important;
+  }
+
+  p {
+    margin: 0!important;
+  }
+
+  pre {
+    max-height: 400px!important;
+  }
+
+</style>
 
 # select2を使って複数の値を選択できるselectボックスを作る
-
-<style>
-    h1 {
-      font-size: 28px;
-    }
-
-    p {
-      margin: 0;
-    }
-
-    pre {
-      max-height: 400px;
-    }
-</style>
 
 <div class="grid grid-cols-2 gap-4">
   <div>
@@ -351,5 +394,177 @@ class: text-center
 </div>
 
 ---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
+---
 
-# 実はグローバル変数の値も表示されます！ベンチマークモード
+# グローバル変数の値も表示されます！ベンチマークモード 😎
+
+<img src="/benchimark-mode.png" alt="ベンチマークモードに全グローバル変数の出力内容が表示されている画像" class="m-auto" >
+
+---
+layout: new-section
+---
+
+# IFブロックが意図通り動かない時あるある
+
+😱
+
+<style>
+
+    p {
+      font-size: 64px;
+    }
+
+</style>
+
+---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
+---
+
+# IFブロックの値に改行が入るとIFブロックが動かない
+
+<div class="grid grid-cols-2 gap-4" >
+
+  <div>
+
+  たとえば右のような記述は `{hoge}` に改行（コード）が含まれているとIFブロックが正常に動作せず、全部表示されてしまいます 😭
+
+  </div>
+
+  <div>
+
+  ```html
+  <!-- BEGIN_IF [{hoge}/lk/あいうえお] -->
+  <p>あいうえおが含まれます</p>
+  <!-- ELSE -->
+  <p>あいうえおが含まれていません</p>
+  <!-- END_IF -->
+  ```
+
+  </div>
+
+</div>
+
+
+---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
+---
+
+# IFブロックの値に演算子が入るとIFブロックが動かない
+
+- また、先程のコードで `{hoge}` にIFブロックで使用するオプション（演算子）が入っている場合も動作しません
+- 例えば、値として `/category/field/fuga/lk/あいうえお` が入力された場合、"あいうえおが含まれていません" というテキストが表示されてしまいます。
+
+
+---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
+---
+
+# …その結果
+
+<div class="grid grid-cols-2 gap-4" >
+
+  <div class="flex flex-col gap-y-8">
+
+  - 変数に改行が入力される可能性がある場合は、 `[delnl]` の校正オプション
+  - 変数にオプション（演算子）が入植される可能性がある場合は、 `[convert('A')]` の校正オプション
+
+  ```html
+  <!-- BEGIN_IF [{hoge}[convert('A')|delnl]/lk/あいうえお] -->
+  <p>あいうえおが含まれます</p>
+  <!-- ELSE -->
+  <p>あいうえおが含まれていません</p>
+  <!-- END_IF -->
+  ```
+
+  </div>
+
+  <div class="text-center flex justify-center items-center">
+
+  <span class="text-[120px]"> 🙂 </span>
+
+  </div>
+
+</div>
+
+---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
+---
+
+# 〇〇_Fieldと〇〇Fieldの違い
+
+〇〇_Fieldという名前がつけられているフィールドモジュールとEntry_SumamryやEntry_Body といった一部のモジュールの中に存在する〇〇Field（フィールドブロック）は名前が似ていることもあり、とってもややこしいことでしょう 🤔
+
+細かい違いはいくつかありますが、実装時にどちらを使用するかの選定基準としては以下になると思います 🧐
+
+フィールドモジュールはモジュールなのでエスケープして使用することができます。逆にフィールドブロックはブロックなので実行順序を操作する事ができません。
+
+
+---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
+---
+
+# クエリストリングの値（バリュー）をグローバル変数で取得する
+
+たとえば、`https://developer.a-blogcms.jp/document/search.html?keyword=テスト&start=1` というURLのページで↓のHTMLを記述すると
+
+```html
+<p>クエリストリングを取得：%{start}</p>
+```
+
+出力結果は「クエリストリングを取得：1」 となります。
+
+僕が、最もよく利用するのは、[Custom Search API との連携
+](https://developer.a-blogcms.jp/document/externalservice/custom-search-api.html) して、サイト内検索を実装するときでしょうか 🤔
+
+---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
+---
+
+# Field_Searchモジュールでカスタムフィールド検索の値を保持する
+
+- [Field_Searchモジュール](https://developer.a-blogcms.jp/document/customfield/entry-1707.html#entry-1) を使用することで、カスタムフィールドで検索したとき、検索結果のテンプレートで検索したカスタムフィールドの値を表示できます。
+- `<option value="red" {color:selected#red}>赤色</option>` の `{color:selected#red}` の記述を動かすことができます。
+- また、検索後のURLが https://example.com/field/color/red/ となっているときに↓のようにField_Searchモジュールを使うと red のように `{color}` の値が表示できます。
+
+```html
+<!-- BEGIN_MODULE Field_Search -->
+<p>{color}</p>
+<!-- END_MODULE Field_Search -->
+```
+
+
+---
+eventLogo: 'https://dzpp79ucibp5a.cloudfront.net/rails/active_storage/representations/proxy/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBekI3QVE9PSIsImV4cCI6bnVsbCwicHVyIjoiYmxvYl9pZCJ9fQ==--b58ed7b62454fe7eb5a6d291314ef342bb897970/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RTNKbGMybDZaVjloYm1SZmNHRmtXd2RwQWNocEFjZz0iLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--e0e57e8ab7f02a9e57804bb53ef80c2bdc861848/logo_community.png'
+eventUrl: 'https://ablogcms-zoomup.doorkeeper.jp/events/129702'
+twitter: '@poorman_ui'
+twitterUrl: 'https://twitter.com/poorman_ui'
+---
+
+# 最後に
+
+- slackでの募集に回答していただいた皆様！ありがとうございました 🙇
+- 発表を聞いてくださった参加者の皆様もありがとうございました 🙇
+- Twitterもよろしければフォローお願いします 🐦
+  - [@poorman_ui](https://twitter.com/poorman_ui)
